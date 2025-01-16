@@ -1,0 +1,9 @@
+[Unit]
+Description=remap for your razer naga keys
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/razer-naga-key-remap /etc/razer-naga-remap-config.toml
+
+[Install]
+WantedBy=multi-user.target

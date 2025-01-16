@@ -15,7 +15,7 @@ mod event_mapper;
 const VERSION: &'static str = env!("CARGO_PKG_VERSION");
 
 fn main() -> Result<(), String> {
-    println!("razer-naga-2014-key-remap v{}", VERSION);
+    println!("razer-naga-key-remap (fork) v{}", VERSION);
 
     let args: Vec<String> = env::args().collect();
 

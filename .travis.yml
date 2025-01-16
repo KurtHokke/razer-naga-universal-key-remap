@@ -22,7 +22,7 @@ jobs:
     deploy:
       provider: releases
       api_key: "$GITHUB_API_KEY"
-      file: target/release/razer-naga-2014-key-remap
+      file: target/release/razer-naga-key-remap
       skip_cleanup: true
       on:
         tags: true

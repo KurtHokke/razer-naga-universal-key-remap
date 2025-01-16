@@ -14,7 +14,7 @@ Example configuration [file](https://github.com/jpodeszwik/razer-naga-2014-key-r
 ## Build from source
 build with cargo `cargo build --release`
 
-run as root `target/release/razer-naga-2014-key-remap config/razer-naga-2014-key-remap.toml`
+run as root `target/release/razer-naga-universal-key-remap config/razer-naga-remap-config.toml`
 
 ## AUR package
 Install [razer-naga-2014-key-remap-bin](https://aur.archlinux.org/packages/razer-naga-2014-key-remap-bin) package
