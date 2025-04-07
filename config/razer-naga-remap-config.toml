@@ -17,15 +17,15 @@
 # F13, F14, F15, F16, F17, F18, F19, F20, F21, F22, F23, F24
 
 [keys]
-1 = 'F8'
-2 = 'F12'
-3 = 'F13'
+1 = 'Apostrophe'
+2 = 'SemiColon'
+3 = 'BackSpace'
 4 = 'Enter'
-5 = 'D'
+5 = 'Tab'
 6 = 'LeftControl'
-7 = 'E'
-8 = 'F'
-9 = 'G'
+7 = 'LeftMeta'
+8 = 'LeftMeta'
+9 = 'LeftShift'
 10 = 'BackSpace'
-11 = 'H'
+11 = 'LeftMeta'
 12 = 'Delete'

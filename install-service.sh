@@ -23,7 +23,7 @@ copy_with_confirmation() {
         case "$choice" in
             y|Y ) 
                 echo "Overwriting $dest."
-                cp "$src" "$dest"
+                sudo cp "$src" "$dest"
                 ;;
             n|N ) 
                 echo "Skipping $dest."
@@ -35,7 +35,7 @@ copy_with_confirmation() {
                 ;;
         esac
     else
-        cp "$src" "$dest"
+        sudo cp "$src" "$dest"
     fi
 }
 # Function to create the systemd service file
